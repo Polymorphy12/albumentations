@@ -7,16 +7,16 @@ from collections import defaultdict
 
 import numpy as np
 
-from albumentations.augmentations.bbox_utils import BboxProcessor
-from albumentations.augmentations.keypoints_utils import KeypointsProcessor
-from albumentations.core.serialization import (
+from realbumentations.albumentations.augmentations.bbox_utils import BboxProcessor
+from realbumentations.albumentations.augmentations.keypoints_utils import KeypointsProcessor
+from realbumentations.albumentations.core.serialization import (
     SERIALIZABLE_REGISTRY,
     SerializableMeta,
     get_shortest_class_fullname,
     instantiate_nonserializable,
 )
-from albumentations.core.transforms_interface import BasicTransform
-from albumentations.core.utils import Params, format_args, get_shape
+from realbumentations.albumentations.core.transforms_interface import BasicTransform
+from realbumentations.albumentations.core.utils import Params, format_args, get_shape
 
 __all__ = [
     "BaseCompose",
