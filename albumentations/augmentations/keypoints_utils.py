@@ -3,7 +3,7 @@ from __future__ import division
 import math
 import warnings
 
-from albumentations.core.utils import DataProcessor
+from realbumentations.albumentations.core.utils import DataProcessor
 
 __all__ = [
     "angle_to_2pi_range",

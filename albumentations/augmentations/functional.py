@@ -10,7 +10,7 @@ import cv2
 import numpy as np
 import skimage
 
-from albumentations.augmentations.keypoints_utils import angle_to_2pi_range
+from realbumentations.albumentations.augmentations.keypoints_utils import angle_to_2pi_range
 
 MAX_VALUES_BY_DTYPE = {
     np.dtype("uint8"): 255,

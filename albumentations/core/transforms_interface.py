@@ -8,11 +8,11 @@ from warnings import warn
 import cv2
 import numpy as np
 
-from albumentations.core.serialization import (
+from realbumentations.albumentations.core.serialization import (
     SerializableMeta,
     get_shortest_class_fullname,
 )
-from albumentations.core.utils import format_args
+from realbumentations.albumentations.core.utils import format_args
 
 __all__ = ["to_tuple", "BasicTransform", "DualTransform", "ImageOnlyTransform", "NoOp"]
 
